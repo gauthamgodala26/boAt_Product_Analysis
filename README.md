@@ -2,12 +2,12 @@
 
 **Turning 500+ Amazon reviews of boAt Airdopes 141 into actionable insights for product & marketing.**  
 
----
+
 
 ## Overview  
 This project analyzes **customer sentiment and product experience** for boAt Airdopes 141. Using structured data cleaning, feature tagging, and sentiment mapping, it highlights **what customers love** and **where they struggle**, translating raw reviews into **strategic recommendations**.  
 
----
+
 
 ## Workflow  
 1. **Data Collection** → 500+ Amazon reviews (all rating levels)  
@@ -16,7 +16,7 @@ This project analyzes **customer sentiment and product experience** for boAt Air
 4. **Sentiment Analysis** → Classified into Positive, Neutral, Negative  
 5. **Insights & Recommendations** → Derived customer pain points & product strengths  
 
----
+
 
 ## Key Findings  
 - **Balanced Sentiment** → Positive (40.5%) vs Negative (39.8%)  
@@ -24,7 +24,7 @@ This project analyzes **customer sentiment and product experience** for boAt Air
 - **Loved Aspects** → Gen-Z appeal (39%), Sound & Battery (~32%), Connectivity (28%)  
 - **Polarized Experiences** → Same features praised by some, criticized by others  
 
----
+
 
 ## Recommendations  
 - **Durability** → Stricter QA, extended warranty for trust  
@@ -32,12 +32,37 @@ This project analyzes **customer sentiment and product experience** for boAt Air
 - **Connectivity** → Optimize Bluetooth firmware for stable, multi-device use  
 - **Branding** → Double down on youth-centric, party-vibe positioning  
 
----
+
 
 ## Tech Stack  
 - **Excel** (data cleaning, categorization, visualization)  
 - **PowerPoint** (presentation of insights & recommendations)  
 
----
+
 
 ## Repository Structure  
+boAt_Product_Analysis/
+│── data/
+│ └── reviews_analysis.xlsx # Contains raw reviews, cleaning, sentiment, visuals
+│
+│── presentation/
+│ └── boAt_Airdopes_Analysis.pptx # Insights & recommendations in slides
+│
+│── README.md # Project documentation
+
+
+
+
+## How to Use  
+1. Open **`data/reviews_analysis.xlsx`** → explore sheets for raw reviews, processed data, and sentiment visuals.  
+2. Open **`presentation/boAt_Airdopes_Analysis.pptx`** → view structured findings, insights, and recommendations.  
+
+
+
+## Author  
+**Sai Gautham Godala**  
+📧gauthamgodhala7@gmail.com
+
+---
+
+*From raw reviews to real product insights — bridging customer voice with brand growth.*  
