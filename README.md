@@ -40,18 +40,6 @@ This project analyzes **customer sentiment and product experience** for boAt Air
 
 
 
-## Repository Structure  
-boAt_Product_Analysis/
-│── data/
-│ └── reviews_analysis.xlsx # Contains raw reviews, cleaning, sentiment, visuals
-│
-│── presentation/
-│ └── boAt_Airdopes_Analysis.pptx # Insights & recommendations in slides
-│
-│── README.md # Project documentation
-
-
-
 
 ## How to Use  
 1. Open **`data/reviews_analysis.xlsx`** → explore sheets for raw reviews, processed data, and sentiment visuals.  
