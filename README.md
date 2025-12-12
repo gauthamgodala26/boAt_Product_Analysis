@@ -99,10 +99,10 @@ This suggests quality variance or inconsistency across production batches.
 ---
 
 ## Tech Stack  
-- **Excel** — data cleaning, tagging, sentiment categorization, visualization  
+- **SQL,Excel** — data cleaning, tagging, sentiment categorization, visualization  
 - **PowerPoint** — insight presentation  
 
-*(SQL/Python scripts can be added for future scalability and automation.)*
+
 
 ---
 
