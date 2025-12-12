@@ -99,8 +99,9 @@ This suggests quality variance or inconsistency across production batches.
 ---
 
 ## Tech Stack  
-- **SQL,Excel** — data cleaning, tagging, sentiment categorization, visualization  
-- **PowerPoint** — insight presentation  
+- **Excel** — primary analysis (cleaning, tagging, visual summaries)  
+- **Python (Pandas)** — supplementary validation and workflow scalability  
+- **PowerPoint** — insight storytelling and recommendation framing  
 
 
 
