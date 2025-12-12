@@ -46,6 +46,44 @@ This project analyzes **customer sentiment and product experience** for boAt Air
 2. Open **`presentation/boAt_Airdopes_Analysis.pptx`** → view structured findings, insights, and recommendations.  
 
 
+### SQL Queries
+##  1. Count positive, negative, and neutral sentiment based on keywords
+
+SELECT
+    CASE
+        WHEN review_text ILIKE '%good%' OR review_text ILIKE '%love%' THEN 'Positive'
+        WHEN review_text ILIKE '%bad%' OR review_text ILIKE '%poor%' OR review_text ILIKE '%disappointed%' THEN 'Negative'
+        ELSE 'Neutral'
+    END AS sentiment,
+    COUNT(*) AS review_count
+FROM reviews
+GROUP BY sentiment;
+
+## 2.Tag reviews by common product attributes
+SELECT
+    review_id,
+    review_text,
+    CASE
+        WHEN review_text ILIKE '%battery%' THEN 'Battery'
+        WHEN review_text ILIKE '%sound%'  THEN 'Sound Quality'
+        WHEN review_text ILIKE '%comfort%' THEN 'Comfort'
+        WHEN review_text ILIKE '%design%' THEN 'Design'
+        ELSE 'Other'
+    END AS feature_tag
+FROM reviews;
+
+## 3.Find most common negative issues
+SELECT
+    feature_tag,
+    COUNT(*) AS issue_count
+FROM feature_extracted_reviews
+WHERE sentiment = 'Negative'
+GROUP BY feature_tag
+ORDER BY issue_count DESC;
+
+
+
+
 
 ## Author  
 **Sai Gautham Godala**  
