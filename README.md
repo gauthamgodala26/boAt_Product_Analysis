@@ -1,49 +1,128 @@
-# boAt_Product_Analysis  
+# boAt Product Analysis – Customer Sentiment & Product Insights  
+Transforming 500+ Amazon reviews of boAt Airdopes 141 into data-driven product decisions.
 
-**Turning 500+ Amazon reviews of boAt Airdopes 141 into actionable insights for product & marketing.**  
-
-
+---
 
 ## Overview  
-This project analyzes **customer sentiment and product experience** for boAt Airdopes 141. Using structured data cleaning, feature tagging, and sentiment mapping, it highlights **what customers love** and **where they struggle**, translating raw reviews into **strategic recommendations**.  
+This project analyzes real customer feedback for the boAt Airdopes 141 to uncover sentiment patterns, product experience gaps, and actionable improvement opportunities.  
+Using structured cleaning, feature tagging, and sentiment mapping, the study converts raw reviews into insights that support product, marketing, and CX strategy.
 
-
+---
 
 ## Workflow  
-1. **Data Collection** → 500+ Amazon reviews (all rating levels)  
-2. **Cleaning & Preprocessing** → Removed emojis, non-English text, duplicates  
-3. **Feature Tagging** → Connectivity, Battery, Sound, Durability, Gen-Z appeal  
-4. **Sentiment Analysis** → Classified into Positive, Neutral, Negative  
-5. **Insights & Recommendations** → Derived customer pain points & product strengths  
 
+### 1. Data Collection  
+- Collected 500+ Amazon reviews across all star ratings  
 
+### 2. Cleaning & Preprocessing  
+- Removed emojis, symbols, and non-English text  
+- Standardized sentiment terms  
+- Removed duplicates and normalized product keywords  
+
+### 3. Feature Tagging  
+Reviews were categorized into product experience themes:  
+- Battery  
+- Sound Quality  
+- Comfort & Fit  
+- Connectivity  
+- Durability  
+- Gen-Z Appeal / Design  
+
+### 4. Sentiment Analysis  
+Reviews were tagged as:  
+- Positive  
+- Negative  
+- Neutral  
+
+### 5. Insight Derivation  
+Patterns across features and sentiment categories were summarized into product recommendations.
+
+---
 
 ## Key Findings  
-- **Balanced Sentiment** → Positive (40.5%) vs Negative (39.8%)  
-- **Pain Points** → Durability (25%), Battery (21%), Connectivity (19%)  
-- **Loved Aspects** → Gen-Z appeal (39%), Sound & Battery (~32%), Connectivity (28%)  
-- **Polarized Experiences** → Same features praised by some, criticized by others  
 
+### 1. Sentiment Distribution  
+- Positive: **40.5%**  
+- Negative: **39.8%**  
 
+Customers are highly split — strong appreciation, but equally high frustration.
+
+---
+
+### 2. Major Pain Points  
+| Feature       | % of Negative Mentions |
+|--------------|-------------------------|
+| Durability   | 25%                     |
+| Battery      | 21%                     |
+| Connectivity | 19%                     |
+
+Durability is the top complaint, followed by battery backup and connectivity issues.
+
+---
+
+### 3. Most Loved Features  
+| Feature         | Positive Mentions |
+|-----------------|-------------------|
+| Gen-Z Design    | 39%               |
+| Sound Quality   | 32%               |
+| Battery Backup  | 32%               |
+| Connectivity    | 28%               |
+
+Product resonates well with youth and sound-focused buyers.
+
+---
+
+### 4. Polarized Experience  
+Several features (like sound and battery) have both strong praise and strong criticism.  
+This suggests quality variance or inconsistency across production batches.
+
+---
 
 ## Recommendations  
-- **Durability** → Stricter QA, extended warranty for trust  
-- **Battery & Charging** → Market realistic backup, explore fast charging  
-- **Connectivity** → Optimize Bluetooth firmware for stable, multi-device use  
-- **Branding** → Double down on youth-centric, party-vibe positioning  
 
+### Durability  
+- Strengthen hinge and plastic components  
+- Offer extended warranty to rebuild trust  
 
+### Battery & Charging  
+- Set realistic expectations for backup  
+- Explore fast-charging improvements  
+
+### Connectivity  
+- Improve Bluetooth stability and latency  
+- Optimize multi-device switching  
+
+### Branding  
+- Leverage youth-focused design and high appeal  
+- Reinforce sound quality improvements in marketing  
+
+---
 
 ## Tech Stack  
-- **Excel** (data cleaning, categorization, visualization)  
-- **PowerPoint** (presentation of insights & recommendations)  
+- **Excel** — data cleaning, tagging, sentiment categorization, visualization  
+- **PowerPoint** — insight presentation  
 
+*(SQL/Python scripts can be added for future scalability and automation.)*
 
-
+---
 
 ## How to Use  
-1. Open **`data/reviews_analysis.xlsx`** → explore sheets for raw reviews, processed data, and sentiment visuals.  
-2. Open **`presentation/boAt_Airdopes_Analysis.pptx`** → view structured findings, insights, and recommendations.  
+
+1. Open `data/reviews_analysis.xlsx`  
+   - Contains raw reviews, processed data, tags, and charts  
+
+2. Open `presentation/boAt_Airdopes_Analysis.pptx`  
+   - Shows insights, trends, and product recommendations  
+
+---
+
+## This Project Demonstrates  
+- Customer sentiment analysis  
+- Feature tagging and root-cause identification  
+- Ability to convert qualitative feedback into actionable product insights  
+- Clear communication of insights in a structured business format  
+
+
 
 
 ### SQL Queries
