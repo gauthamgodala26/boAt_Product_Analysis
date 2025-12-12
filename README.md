@@ -49,8 +49,3 @@ This project analyzes **customer sentiment and product experience** for boAt Air
 
 ## Author  
 **Sai Gautham Godala**  
-📧gauthamgodhala7@gmail.com
-
----
-
-*From raw reviews to real product insights — bridging customer voice with brand growth.*  
